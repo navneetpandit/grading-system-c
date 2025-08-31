@@ -23,6 +23,11 @@ cd grading-system-c
 gcc marks.c -o grades
 ./grades
 
+## Learning Outcome
+- Practiced conditional logic using if-else statements
+- Managed range-based grading logic
+- Validated user input for errors
+
 ## What’s Next
 - Add GPA calculation feature.
 - Allow grading of multiple students in one run.
