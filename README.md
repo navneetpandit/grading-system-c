@@ -25,3 +25,11 @@ A simple program written in **C** that calculates a student's grade based on the
 gcc grades.c -o grades
 
 ./grades
+
+📌 Next Mission
+
+Add GPA calculation
+
+Allow multiple students’ grades in one run
+
+Create a menu-driven version
