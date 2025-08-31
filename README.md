@@ -1,52 +1,53 @@
-🎓 Grading System in C
+# 🎓 Grading System in C (Extended with GPA Evaluation)
 
-A simple program written in C that calculates a student's grade based on their marks.
-This project is part of my 1st Year B.Tech CSE journey, where I’m learning the fundamentals of programming.
+This repository contains my **C programming projects** for grading students.  
+It started with a **basic grading system** and later expanded to include **GPA evaluation**.
 
-🚀 Features
+---
 
-Takes marks (0–100) as input
+## 🚀 Features
 
-Outputs grades:
+### Version 1: Basic Grading System (`marks.c`)
+- Input marks (0–100)
+- Output grades:
+  - A (90–100)
+  - B (80–89)
+  - C (70–79)
+  - D (60–69)
+  - Fail (< 60)
+- Input validation for marks
 
-A (90–100)
+### Version 2: Grading + GPA Evaluation (`grading_gpa.c`)
+- Includes everything from Version 1
+- Adds GPA input (0.0–10.0) with evaluation:
+  - Excellent (≥ 9.5)
+  - Awesome (≥ 8.5)
+  - Good (≥ 7.5)
+  - Average (≥ 6.5)
+  - Needs Improvement (< 6.5)
+- GPA validation
 
-B (80–89)
-
-C (70–79)
-
-D (60–69)
-
-Fail (< 60)
-
-Includes input validation for marks outside 0–100
-
-🛠️ How to Run
-git clone https://github.com/navneetpandit/grading-system-c.git
-cd grading-system-c
-gcc marks.c -o grades
-./grades
-
-📌 Example Run
-Enter the marks (0–100): 85
-Grade: B
-
+---
 🎯 Learning Outcome
 
-This project helped me practice:
+Practiced if-else conditions with ranges
 
-Conditional statements (if-else if-else)
+Validated multiple inputs (marks + GPA)
 
-Handling ranges and boundary conditions
+Extended a project instead of starting from scratch
 
-Validating user input
+Learned how to structure multiple versions in one repo
 
 🔮 What’s Next
 
-Add GPA calculation
+Allow grading of multiple students in one run (loops)
 
-Allow grading of multiple students in one run (using loops)
+Save results into a file (file handling in C)
 
-Convert into a menu-driven program
+Add a menu system for better user experience
 
-⚡ This is my second project in C after a simple calculator — small steps, consistent learning 🚀
+⚡ This repo now contains my Version 1 & Version 2 grading projects in C. More updates coming soon 🚀
+
+# Run Version 2 (Grading + GPA Evaluation)
+gcc grading_gpa.c -o grading_gpa
+./grading_gpa
