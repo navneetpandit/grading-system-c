@@ -16,20 +16,15 @@ A simple program written in **C** that calculates a student's grade based on the
 - Includes **input validation** for marks outside 0–100
 
 ---
-
-## 🛠️ How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/grading-system-c.git
-
-gcc grades.c -o grades
-
+## How to Run
+```bash
+git clone https://github.com/navneetpandit/grading-system-c.git
+cd grading-system-c
+gcc marks.c -o grades
 ./grades
 
-📌 Next Mission
-
-Add GPA calculation
-
-Allow multiple students’ grades in one run
-
-Create a menu-driven version
+## What’s Next
+- Add GPA calculation feature.
+- Allow grading of multiple students in one run.
+- Convert into a menu-driven program.
+- Apply loops for more flexible input/output.
